@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Unity\\Projects\\FinalProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|f:\\unity\\projects\\finalproject\\assets\\pulpit\\pulpitmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\pulpit\\pulpitmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|f:\\unity\\projects\\finalproject\\assets\\doofus\\doofusdiary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\doofus\\doofusdiary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|F:\\Unity\\Projects\\FinalProject\\assets\\pulpit\\pulpit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\pulpit\\pulpit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|F:\\Unity\\Projects\\FinalProject\\assets\\doofus\\movementscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\doofus\\movementscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|f:\\unity\\projects\\finalproject\\assets\\scenes\\gameoverlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\gameoverlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameOverLogic.cs",
+              "DocumentMoniker": "F:\\Unity\\Projects\\FinalProject\\Assets\\Scenes\\GameOverLogic.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\GameOverLogic.cs",
+              "ToolTip": "F:\\Unity\\Projects\\FinalProject\\Assets\\Scenes\\GameOverLogic.cs",
+              "RelativeToolTip": "Assets\\Scenes\\GameOverLogic.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T17:52:44.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "pulpitManager.cs",
+              "DocumentMoniker": "F:\\Unity\\Projects\\FinalProject\\Assets\\Pulpit\\pulpitManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Pulpit\\pulpitManager.cs",
+              "ToolTip": "F:\\Unity\\Projects\\FinalProject\\Assets\\Pulpit\\pulpitManager.cs",
+              "RelativeToolTip": "Assets\\Pulpit\\pulpitManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T17:48:52.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DoofusDiary.cs",
+              "DocumentMoniker": "F:\\Unity\\Projects\\FinalProject\\Assets\\Doofus\\DoofusDiary.cs",
+              "RelativeDocumentMoniker": "Assets\\Doofus\\DoofusDiary.cs",
+              "ToolTip": "F:\\Unity\\Projects\\FinalProject\\Assets\\Doofus\\DoofusDiary.cs",
+              "RelativeToolTip": "Assets\\Doofus\\DoofusDiary.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB4AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T16:57:36.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "pulpit.cs",
+              "DocumentMoniker": "F:\\Unity\\Projects\\FinalProject\\Assets\\Pulpit\\pulpit.cs",
+              "RelativeDocumentMoniker": "Assets\\Pulpit\\pulpit.cs",
+              "ToolTip": "F:\\Unity\\Projects\\FinalProject\\Assets\\Pulpit\\pulpit.cs",
+              "RelativeToolTip": "Assets\\Pulpit\\pulpit.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T14:29:04.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MovementScript.cs",
+              "DocumentMoniker": "F:\\Unity\\Projects\\FinalProject\\Assets\\Doofus\\MovementScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Doofus\\MovementScript.cs",
+              "ToolTip": "F:\\Unity\\Projects\\FinalProject\\Assets\\Doofus\\MovementScript.cs",
+              "RelativeToolTip": "Assets\\Doofus\\MovementScript.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T14:20:42.25Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
