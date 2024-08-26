@@ -10,8 +10,7 @@ public class pulpitManager : MonoBehaviour
     public bool canSpawnPulpit = true;
     public Vector3 spawnPoint;
 
-    int score;
-    public int Score {  get { return score; } }
+    public int score;
 
     [SerializeField] TMP_Text scoreText;
 
@@ -39,6 +38,5 @@ public class pulpitManager : MonoBehaviour
         GameObject newPulpit = Instantiate(pulpitPrefab, spawnPoint, Quaternion.identity);
         pulpitList.Add(newPulpit);
         canSpawnPulpit = false;
-        score++;
     }
 }

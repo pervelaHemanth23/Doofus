@@ -22,6 +22,6 @@ public class GameOverLogic : MonoBehaviour
         movement.enabled = false;
         scoreTextIngame.SetActive(false);
 
-        scoreText.text = "Score: " + manager.Score.ToString();
+        scoreText.text = "Score: " + manager.score.ToString();
     }
 }
