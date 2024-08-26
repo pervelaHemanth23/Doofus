@@ -14,8 +14,11 @@ public class pulpit : MonoBehaviour
     pulpitManager manager;
 
     Vector3 nextSpawnPoint;
+    BoxCastScript boxCast;
 
     public TMP_Text timerText;
+
+    List<Vector3> spawnPoints = new List<Vector3>();
 
     void Start()
     {
@@ -23,6 +26,8 @@ public class pulpit : MonoBehaviour
         // onCreation();
 
         // timerText = GetComponent<TMP_Text>();
+
+        boxCast = GetComponentInChildren<BoxCastScript>();
         manager = GameObject.FindGameObjectWithTag("pulpitManager")?.GetComponent<pulpitManager>();
         currentTime = Random.Range(min_lifetime, max_lifetime);
     }
@@ -61,16 +66,31 @@ public class pulpit : MonoBehaviour
 
     void pickRandomSpawnPoint()
     {
-        const float spawnOffset = 10f;
-        List<Vector3> spawnPoints = new List<Vector3>();
+        spawnPoints.Clear();
 
+        const float spawnOffset = 10f;
+        
         // Only spawn horizontally or vertically
         // x +- 10, z +- 10
-        spawnPoints.Add(new Vector3(transform.position.x + spawnOffset, 0, transform.position.z));
-        spawnPoints.Add(new Vector3(transform.position.x - spawnOffset, 0, transform.position.z));
-        spawnPoints.Add(new Vector3(transform.position.x, 0, transform.position.z + spawnOffset));
-        spawnPoints.Add(new Vector3(transform.position.x, 0, transform.position.z - spawnOffset));
+        // spawnPoints.Add(new Vector3(transform.position.x + spawnOffset, 0, transform.position.z));
+        // spawnPoints.Add(new Vector3(transform.position.x - spawnOffset, 0, transform.position.z));
+        // spawnPoints.Add(new Vector3(transform.position.x, 0, transform.position.z + spawnOffset));
+        // spawnPoints.Add(new Vector3(transform.position.x, 0, transform.position.z - spawnOffset));
+
+        checkIfSpawnableAndAddToList(new Vector3(transform.position.x + spawnOffset, 0, transform.position.z));
+        checkIfSpawnableAndAddToList(new Vector3(transform.position.x - spawnOffset, 0, transform.position.z));
+        checkIfSpawnableAndAddToList(new Vector3(transform.position.x, 0, transform.position.z + spawnOffset));
+        checkIfSpawnableAndAddToList(new Vector3(transform.position.x, 0, transform.position.z - spawnOffset));
 
         nextSpawnPoint = spawnPoints[Random.Range(0, spawnPoints.Count)];
+    }
+
+    void checkIfSpawnableAndAddToList(Vector3 nextSpawnPosition)
+    {
+        if (boxCast.canSpawn(nextSpawnPosition))
+        {
+            spawnPoints.Add(nextSpawnPosition);
+            return;
+        }
     }
 }

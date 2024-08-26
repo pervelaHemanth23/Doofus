@@ -1,0 +1,16 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="SceneManagementScript">
+			<method name="MainMenu"/>
+			<method name="NextLevel"/>
+			<method name="QuitGame"/>
+			<method name="RestartLevel"/>
+		</type>
+		<type fullname="SoundManagementScript">
+			<method name="playClick"/>
+			<method name="playClick"/>
+			<method name="playClick"/>
+			<method name="playClick"/>
+		</type>
+	</assembly>
+</linker>

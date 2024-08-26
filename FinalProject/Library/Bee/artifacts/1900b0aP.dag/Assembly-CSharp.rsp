@@ -312,6 +312,7 @@
 "Assets/Audio/SoundManagementScript.cs"
 "Assets/Doofus/DoofusDiary.cs"
 "Assets/Doofus/MovementScript.cs"
+"Assets/Pulpit/BoxCastScript.cs"
 "Assets/Pulpit/pulpit.cs"
 "Assets/Pulpit/pulpitManager.cs"
 "Assets/Pulpit/ScoreManager.cs"
